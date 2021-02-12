@@ -1,5 +1,7 @@
 # CMake Test Arch
 
+![Build - iOS](https://github.com/paulo-coutinho/cmake-test-arch/workflows/Build%20-%20iOS/badge.svg)
+
 ## About
 
 Sample project using CMake to build a sample library with different libraries.
