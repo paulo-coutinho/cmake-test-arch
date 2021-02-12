@@ -79,8 +79,14 @@ jobs:
           )
         endif()
 
-    - name: Build
-      run: make build
+    - name: Build - Xcode
+      run: make build-xcode
 
-    - name: Check
-      run: make check
+    - name: Check - Xcode
+      run: make check-xcode
+
+    - name: Build - Makefile
+      run: make build-makefile
+
+    - name: Check - Makefile
+      run: make check-makefile
